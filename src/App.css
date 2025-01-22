@@ -1,4 +1,8 @@
 #root {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -37,6 +41,13 @@
   padding: 2em;
 }
 
-.read-the-docs {
-  color: #888;
+.anim {
+  /* outline-style: dotted; */
+  display:flex;
+  width: 180px;
+  height: 180px;
+  border-width: 8px;
+  justify-content: center;
+  align-items: center;
 }
+
