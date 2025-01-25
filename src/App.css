@@ -1,53 +1,19 @@
-#root {
-  display:flex;
+.container {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 12px;
   text-align: center;
-}
+  height: 100vh;
+  width: 100%;
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  .anim {
+    /* outline-style: dotted; */
+    display: flex;
+    width: 180px;
+    height: 180px;
+    justify-content: center;
+    align-items: center;
   }
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.anim {
-  /* outline-style: dotted; */
-  display:flex;
-  width: 180px;
-  height: 180px;
-  border-width: 8px;
-  justify-content: center;
-  align-items: center;
-}
-
