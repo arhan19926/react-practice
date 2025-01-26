@@ -35,22 +35,6 @@ export const RestaurantList = [
       isOpen: true,
       aggregatedDiscountInfoV2: {},
       type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "bolt!",
-                  imageId: "bolt/Bolt%20Listing%20badge@3x.png",
-                },
-              },
-            ],
-          },
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
       orderabilityCommunication: {
         title: {},
         subTitle: {},
@@ -117,13 +101,6 @@ export const RestaurantList = [
       badges: {},
       isOpen: true,
       type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
       aggregatedDiscountInfoV3: {
         header: "40% OFF",
         subHeader: "UPTO ₹80",
@@ -191,13 +168,6 @@ export const RestaurantList = [
       badges: {},
       isOpen: true,
       type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
       aggregatedDiscountInfoV3: {
         header: "20% OFF",
         subHeader: "UPTO ₹50",
@@ -273,24 +243,6 @@ export const RestaurantList = [
       },
       isOpen: true,
       type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "",
-                  fontColor: "#7E808C",
-                  iconId: "guiltfree/GF_Logo_android_3x",
-                  shortDescription: "options available",
-                },
-              },
-            ],
-          },
-        },
-      },
       aggregatedDiscountInfoV3: {
         header: "ITEMS",
         subHeader: "AT ₹159",
@@ -366,24 +318,6 @@ export const RestaurantList = [
       },
       isOpen: true,
       type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "",
-                  fontColor: "#7E808C",
-                  iconId: "guiltfree/GF_Logo_android_3x",
-                  shortDescription: "options available",
-                },
-              },
-            ],
-          },
-        },
-      },
       aggregatedDiscountInfoV3: {
         header: "ITEMS",
         subHeader: "AT ₹149",
@@ -459,24 +393,6 @@ export const RestaurantList = [
       },
       isOpen: true,
       type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "",
-                  fontColor: "#7E808C",
-                  iconId: "guiltfree/GF_Logo_android_3x",
-                  shortDescription: "options available",
-                },
-              },
-            ],
-          },
-        },
-      },
       aggregatedDiscountInfoV3: {
         header: "40% OFF",
         subHeader: "UPTO ₹80",
@@ -550,22 +466,6 @@ export const RestaurantList = [
       },
       isOpen: true,
       type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "bolt!",
-                  imageId: "bolt/Bolt%20Listing%20badge@3x.png",
-                },
-              },
-            ],
-          },
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
       aggregatedDiscountInfoV3: {
         header: "ITEMS",
         subHeader: "AT ₹69",
@@ -635,13 +535,6 @@ export const RestaurantList = [
       badges: {},
       isOpen: true,
       type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
       aggregatedDiscountInfoV3: {
         header: "70% OFF",
         discountTag: "FLAT DEAL",
@@ -715,22 +608,6 @@ export const RestaurantList = [
       },
       isOpen: true,
       type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "pureveg",
-                  imageId: "v1695133679/badges/Pure_Veg111.png",
-                },
-              },
-            ],
-          },
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
       aggregatedDiscountInfoV3: {
         header: "ITEMS",
         subHeader: "AT ₹59",
@@ -820,28 +697,6 @@ export const RestaurantList = [
       },
       isOpen: true,
       type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "bolt!",
-                  imageId: "bolt/Bolt%20Listing%20badge@3x.png",
-                },
-              },
-              {
-                attributes: {
-                  description: "Gourmet",
-                  imageId: "newg.png",
-                },
-              },
-            ],
-          },
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
       aggregatedDiscountInfoV3: {
         header: "ITEMS",
         subHeader: "AT ₹99",
@@ -915,22 +770,7 @@ export const RestaurantList = [
       },
       isOpen: true,
       type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "pureveg",
-                  imageId: "v1695133679/badges/Pure_Veg111.png",
-                },
-              },
-            ],
-          },
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
+
       aggregatedDiscountInfoV3: {
         header: "ITEMS",
         subHeader: "AT ₹129",
@@ -1009,22 +849,6 @@ export const RestaurantList = [
       },
       isOpen: true,
       type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "Gourmet",
-                  imageId: "newg.png",
-                },
-              },
-            ],
-          },
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
       aggregatedDiscountInfoV3: {
         header: "40% OFF",
         subHeader: "UPTO ₹80",
@@ -1103,28 +927,6 @@ export const RestaurantList = [
       },
       isOpen: true,
       type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "bolt!",
-                  imageId: "bolt/Bolt%20Listing%20badge@3x.png",
-                },
-              },
-              {
-                attributes: {
-                  description: "pureveg",
-                  imageId: "v1695133679/badges/Pure_Veg111.png",
-                },
-              },
-            ],
-          },
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
       aggregatedDiscountInfoV3: {
         header: "ITEMS",
         subHeader: "AT ₹15",
@@ -1203,28 +1005,6 @@ export const RestaurantList = [
       },
       isOpen: true,
       type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "bolt!",
-                  imageId: "bolt/Bolt%20Listing%20badge@3x.png",
-                },
-              },
-              {
-                attributes: {
-                  description: "pureveg",
-                  imageId: "v1695133679/badges/Pure_Veg111.png",
-                },
-              },
-            ],
-          },
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
       aggregatedDiscountInfoV3: {
         header: "₹50 OFF",
         subHeader: "ABOVE ₹249",
@@ -1301,22 +1081,6 @@ export const RestaurantList = [
       },
       isOpen: true,
       type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "pureveg",
-                  imageId: "v1695133679/badges/Pure_Veg111.png",
-                },
-              },
-            ],
-          },
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
       aggregatedDiscountInfoV3: {
         header: "10% OFF",
         subHeader: "UPTO ₹35",
@@ -1389,22 +1153,6 @@ export const RestaurantList = [
       },
       isOpen: true,
       type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "bolt!",
-                  imageId: "bolt/Bolt%20Listing%20badge@3x.png",
-                },
-              },
-            ],
-          },
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
       aggregatedDiscountInfoV3: {
         header: "40% OFF",
         subHeader: "UPTO ₹80",
@@ -1477,22 +1225,6 @@ export const RestaurantList = [
       isOpen: true,
       aggregatedDiscountInfoV2: {},
       type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "bolt!",
-                  imageId: "bolt/Bolt%20Listing%20badge@3x.png",
-                },
-              },
-            ],
-          },
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
       orderabilityCommunication: {
         title: {},
         subTitle: {},
@@ -1574,28 +1306,6 @@ export const RestaurantList = [
       },
       isOpen: true,
       type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "bolt!",
-                  imageId: "bolt/Bolt%20Listing%20badge@3x.png",
-                },
-              },
-              {
-                attributes: {
-                  description: "pureveg",
-                  imageId: "v1695133679/badges/Pure_Veg111.png",
-                },
-              },
-            ],
-          },
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
       aggregatedDiscountInfoV3: {
         header: "ITEMS",
         subHeader: "AT ₹45",
@@ -1677,22 +1387,6 @@ export const RestaurantList = [
       },
       isOpen: true,
       type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "pureveg",
-                  imageId: "v1695133679/badges/Pure_Veg111.png",
-                },
-              },
-            ],
-          },
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
       aggregatedDiscountInfoV3: {
         header: "20% OFF",
         subHeader: "UPTO ₹50",
@@ -1761,13 +1455,6 @@ export const RestaurantList = [
       badges: {},
       isOpen: true,
       type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
       aggregatedDiscountInfoV3: {
         header: "10% OFF",
         subHeader: "UPTO ₹40",
@@ -1841,13 +1528,6 @@ export const RestaurantList = [
       badges: {},
       isOpen: true,
       type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
       aggregatedDiscountInfoV3: {
         header: "20% OFF",
         subHeader: "UPTO ₹50",
@@ -1928,33 +1608,6 @@ export const RestaurantList = [
       },
       isOpen: true,
       type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "bolt!",
-                  imageId: "bolt/Bolt%20Listing%20badge@3x.png",
-                },
-              },
-            ],
-          },
-          textBased: {},
-          textExtendedBadges: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "",
-                  fontColor: "#7E808C",
-                  iconId: "guiltfree/GF_Logo_android_3x",
-                  shortDescription: "brand",
-                },
-              },
-            ],
-          },
-        },
-      },
       aggregatedDiscountInfoV3: {
         header: "40% OFF",
         subHeader: "UPTO ₹80",
@@ -2030,22 +1683,6 @@ export const RestaurantList = [
       isOpen: true,
       aggregatedDiscountInfoV2: {},
       type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "bolt!",
-                  imageId: "bolt/Bolt%20Listing%20badge@3x.png",
-                },
-              },
-            ],
-          },
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
       orderabilityCommunication: {
         title: {},
         subTitle: {},
@@ -2116,24 +1753,6 @@ export const RestaurantList = [
       },
       isOpen: true,
       type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "",
-                  fontColor: "#7E808C",
-                  iconId: "guiltfree/GF_Logo_android_3x",
-                  shortDescription: "options available",
-                },
-              },
-            ],
-          },
-        },
-      },
       aggregatedDiscountInfoV3: {
         header: "ITEMS",
         subHeader: "AT ₹139",
@@ -2207,24 +1826,6 @@ export const RestaurantList = [
       },
       isOpen: true,
       type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "",
-                  fontColor: "#7E808C",
-                  iconId: "guiltfree/GF_Logo_android_3x",
-                  shortDescription: "options available",
-                },
-              },
-            ],
-          },
-        },
-      },
       aggregatedDiscountInfoV3: {
         header: "ITEMS",
         subHeader: "AT ₹139",
@@ -2289,13 +1890,6 @@ export const RestaurantList = [
       badges: {},
       isOpen: true,
       type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
       aggregatedDiscountInfoV3: {
         header: "10% OFF",
         subHeader: "UPTO ₹40",
@@ -2370,22 +1964,6 @@ export const RestaurantList = [
       },
       isOpen: true,
       type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "Gourmet",
-                  imageId: "newg.png",
-                },
-              },
-            ],
-          },
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
       aggregatedDiscountInfoV3: {
         header: "60% OFF",
         subHeader: "UPTO ₹120",
@@ -2453,13 +2031,6 @@ export const RestaurantList = [
       badges: {},
       isOpen: true,
       type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
       aggregatedDiscountInfoV3: {
         header: "₹75 OFF",
         subHeader: "ABOVE ₹349",
@@ -2526,13 +2097,6 @@ export const RestaurantList = [
       isOpen: true,
       aggregatedDiscountInfoV2: {},
       type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
       orderabilityCommunication: {
         title: {},
         subTitle: {},

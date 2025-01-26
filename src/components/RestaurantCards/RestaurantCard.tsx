@@ -1,8 +1,13 @@
 import styles from "./RestaurantCard.module.scss";
+import { Restaurant } from "./RestaurantType";
+interface RestaurantCardProps {
+  key: string;
+  restaurant: Restaurant;
+}
 
-const RestaurantCard = ({ restaurant }) => {
+const RestaurantCard: React.FC<RestaurantCardProps> = ({ key, restaurant }) => {
   return (
-    <div key={restaurant.uuid} className={styles.Card}>
+    <div key={key} className={styles.Card}>
       <img
         src={
           "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" +
