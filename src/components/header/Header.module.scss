@@ -1,0 +1,63 @@
+.header {
+    display: flex;
+    background:linear-gradient(90deg, #f7f7f7 0%, #dba16b 100%);
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    border: 1px solid #cccccc; // cleaner border
+    margin: 10px;
+    .appLogo {
+        margin: 10px;
+        display: flex;
+        color: white;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family:cursive;
+        img{
+            width: 100px;
+            // height: 100px;
+        }
+    }
+
+    .appLink {
+        ul {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            display: flex;
+            gap: 5rem; // reduced gap for smaller screens
+            list-style: none; // remove bullet points
+            margin: 0;
+            padding: 5px;
+            padding-right: 50px;
+        }
+
+        li a {
+            font-family:ProximaNova, arial, Helvetica Neue, sans-serif;
+            text-decoration: none;
+            color: inherit;
+            cursor: pointer;
+            &:hover {
+                color: rgb(198, 102, 198);
+                // font-size: 22px;
+                text-decoration: none;
+              }
+        }
+      
+       
+    }
+}
+
+// Example media query for responsiveness
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column; // stack items
+        height: auto; // let height adjust
+        padding: 16px;
+    }
+
+    .appLink ul {
+        justify-content: center;
+        gap: 10px; // smaller gap for smaller screens
+    }
+}
