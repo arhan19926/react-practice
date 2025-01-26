@@ -1,5 +1,6 @@
 .header {
     display: flex;
+    background:linear-gradient(90deg, #f7f7f7 0%, #dba16b 100%);
     justify-content: space-between;
     align-items: center;
     height: 150px;
@@ -28,9 +29,11 @@
             list-style: none; // remove bullet points
             margin: 0;
             padding: 5px;
+            padding-right: 50px;
         }
 
         li a {
+            font-family:ProximaNova, arial, Helvetica Neue, sans-serif;
             text-decoration: none;
             color: inherit;
             cursor: pointer;

@@ -1,26 +1,17 @@
 
-.MainCardContainer{
-    padding: 10px;
-    border: 2px solid grey;
-    display: flex;
-    justify-content: space-between;
-    gap:50px;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
 .Card{
     width: 300px;
-    border: 1px solid #ccc;
+    height: 500px;
     border-radius: 10px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    text-align:start;
     img{
         width: 100%;
-        height: 100%;
+        border-radius: 20px;
+        height: 200px;
         padding-bottom: 20px;
         cursor: pointer;
     }
