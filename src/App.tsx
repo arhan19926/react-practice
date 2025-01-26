@@ -1,11 +1,9 @@
 import { useEffect, useState } from "react";
-import Lottie from "lottie-react";
 import "./App.css";
-import AnimRocket from "./assets/animations/AnimRocket.json";
-import Loader from "./components/loader/loader";
-import Header from "./components/header/header";
+import Loader from "./components/loader/Loader";
+import Header from "./components/header/Header";
+import RestaurantCard from "./components/RestaurantCards/RestaurantCard";
 function App() {
-  const [count, setCount] = useState(0);
   const [isloading, setIsloading] = useState(true);
 
   useEffect(() => {
@@ -22,15 +20,7 @@ function App() {
         <>
           <Header />
           <div className="container">
-            <div className="anim">
-              <Lottie animationData={AnimRocket}></Lottie>
-            </div>
-            <h1>Vite + React starter</h1>
-            <div className="card">
-              <button onClick={() => setCount((count) => count + 1)}>
-                count is {count}
-              </button>
-            </div>
+            <RestaurantCard />
           </div>
         </>
       )}

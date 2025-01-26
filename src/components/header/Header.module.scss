@@ -3,12 +3,20 @@
     justify-content: space-between;
     align-items: center;
     height: 150px;
-    // border: 1px solid #cccccc; // cleaner border
+    border: 1px solid #cccccc; // cleaner border
     margin: 10px;
     .appLogo {
+        margin: 10px;
         display: flex;
         color: white;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         font-family:cursive;
+        img{
+            width: 100px;
+            // height: 100px;
+        }
     }
 
     .appLink {
@@ -29,7 +37,7 @@
             &:hover {
                 color: rgb(198, 102, 198);
                 // font-size: 22px;
-                text-decoration: underline;
+                text-decoration: none;
               }
         }
       

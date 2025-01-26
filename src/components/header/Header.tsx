@@ -4,7 +4,11 @@ const Header = () => {
   return (
     <>
       <div className={styles.header}>
-        <div className={styles.appLogo}>FoodVilla</div>
+        <div className={styles.appLogo}>
+          <NavLink to="/">
+            <img src="src/assets/images/applogo.jpg" alt="applogo" />
+          </NavLink>
+        </div>
         <div className={styles.appLink}>
           <ul>
             <li>

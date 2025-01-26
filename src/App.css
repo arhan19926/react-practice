@@ -1,6 +1,5 @@
 .container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 12px;
@@ -8,12 +7,4 @@
   height: 100vh;
   width: 100%;
 
-  .anim {
-    /* outline-style: dotted; */
-    display: flex;
-    width: 180px;
-    height: 180px;
-    justify-content: center;
-    align-items: center;
-  }
 }
