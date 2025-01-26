@@ -6,7 +6,7 @@ const Header = () => {
       <div className={styles.header}>
         <div className={styles.appLogo}>
           <NavLink to="/">
-            <img src="src/assets/images/applogo.jpg" alt="applogo" />
+            <img src="public/assets/images/applogo.jpg" alt="applogo" />
           </NavLink>
         </div>
         <div className={styles.appLink}>
