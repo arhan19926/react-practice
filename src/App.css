@@ -1,4 +1,14 @@
-.container {
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 12px;
+  text-align: center;
+  height: 100vh;
+  gap: 20px;
+}
+
+.RestaurantCardContainer{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -7,4 +17,3 @@
   height: 100vh;
   flex-wrap: wrap;
 }
-
