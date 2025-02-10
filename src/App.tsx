@@ -56,7 +56,7 @@ function App() {
                   );
                 })
               ) : (
-                <h1>No Restaurants Found</h1>
+                <h1>No Restaurants Found .</h1>
               )}
             </div>
           </div>
