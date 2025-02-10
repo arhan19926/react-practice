@@ -1,10 +1,19 @@
-.container {
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 12px;
+  text-align: center;
+  min-height: 500px;
+  gap: 20px;
+}
+
+.RestaurantCardContainer{
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 12px;
   text-align: center;
-  height: 100vh;
+  min-height: 500px;
   flex-wrap: wrap;
 }
-

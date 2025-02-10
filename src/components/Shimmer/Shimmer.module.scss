@@ -1,0 +1,27 @@
+.ShimmerCard{
+    width: 200px;
+    height: 200px;
+    gap: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align:start;
+    img{
+        width: 100%;
+        border-radius: 20px;
+        height: 200px;
+        padding-bottom: 20px;
+        cursor: pointer;
+    }
+    background: grey;
+    margin:20px
+}
+
+// .ShimmerCard{
+//     height: 200px;
+//     width: 200px;
+//     background: grey;
+//     // margin:20px
+// }
