@@ -5,9 +5,9 @@ interface RestaurantCardProps {
   restaurant: Restaurant;
 }
 
-const RestaurantCard: React.FC<RestaurantCardProps> = ({ key, restaurant }) => {
+const RestaurantCard: React.FC<RestaurantCardProps> = ({ restaurant }) => {
   return (
-    <div key={key} className={styles.Card}>
+    <div className={styles.Card}>
       <img
         src={
           "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" +
