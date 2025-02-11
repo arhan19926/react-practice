@@ -1,7 +1,14 @@
 import styles from "./Header.module.scss";
 import { NavLink } from "react-router-dom";
 import logo from "/assets/images/applogo.jpg";
+import { useState } from "react";
 const Header = () => {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+  function handleClick() {
+    setIsLoggedIn(!isLoggedIn);
+  }
+
   return (
     <>
       <div className={styles.header}>
@@ -25,6 +32,11 @@ const Header = () => {
               <NavLink to="/">Cart</NavLink>
             </li>
           </ul>
+        </div>
+        <div className={styles.loginButton}>
+          <button onClick={handleClick}>
+            {isLoggedIn ? "LogOut" : "Login"}
+          </button>
         </div>
       </div>
     </>

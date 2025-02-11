@@ -43,8 +43,18 @@
                 text-decoration: none;
               }
         }
-      
-       
+    }
+    .loginButton{
+        font-family: cursive;
+        margin: 0px;
+        padding-right: 10px;
+        button{
+            margin: 0px;
+            &:hover{
+                background: grey;
+                color: white;
+            }
+        }
     }
 }
 
