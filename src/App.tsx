@@ -25,7 +25,7 @@ function App() {
           restaurant.info.cuisines
             .join(", ")
             .toLowerCase()
-            .includes(query.toLowerCase())
+            .includes(query.trim().toLowerCase())
       );
       setRestaurants(filteredData);
       setIsSearching(false);

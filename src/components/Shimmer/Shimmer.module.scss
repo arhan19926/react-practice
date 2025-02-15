@@ -1,5 +1,15 @@
+@keyframes shimmerAnimation {
+    0% {
+      background-position: -200px 0;
+    }
+    100% {
+      background-position: 200px 0;
+    }
+  }
+
+  
 .ShimmerCard{
-    width: 200px;
+    width: 300px;
     height: 200px;
     gap: 20px;
     border-radius: 10px;
@@ -15,7 +25,9 @@
         padding-bottom: 20px;
         cursor: pointer;
     }
-    background: grey;
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: shimmerAnimation 1.5s infinite linear;
     margin:20px
 }
 
