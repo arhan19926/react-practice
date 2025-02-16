@@ -51,6 +51,7 @@
         button{
             margin: 0px;
             &:hover{
+                cursor: pointer;
                 background: grey;
                 color: white;
             }
