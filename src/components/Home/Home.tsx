@@ -5,6 +5,7 @@ import SearchInput from "../SearchInput/SearchInput";
 import RestaurantCard from "../RestaurantCards/RestaurantCard";
 import Shimmer from "../Shimmer/Shimmer";
 import "./Home.css";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const [isloading, setIsloading] = useState(true);
@@ -49,10 +50,15 @@ const Home = () => {
               ) : restaurants.length > 0 ? (
                 restaurants.map((restaurant) => {
                   return (
-                    <RestaurantCard
+                    <Link
+                      to={"/restaurant/" + restaurant.info.id}
                       key={restaurant.info.id}
-                      restaurant={restaurant}
-                    />
+                    >
+                      <RestaurantCard
+                        key={restaurant.info.id}
+                        restaurant={restaurant}
+                      />
+                    </Link>
                   );
                 })
               ) : (
