@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import styles from "./RestaurantMenu.module.scss";
 import { useEffect, useState } from "react";
 import { IMG_CDN_URL } from "../../../public/constants/common.constants";
+import Shimmer from "../Shimmer/Shimmer";
 
 export const RestaurantMenu = () => {
   const { id } = useParams();
@@ -9,7 +10,7 @@ export const RestaurantMenu = () => {
     getRestaurantMenu();
   }, []);
 
-  const [restaurant, setRestaurant] = useState({});
+  const [restaurant, setRestaurant] = useState(null);
 
   async function getRestaurantMenu() {
     try {
@@ -23,6 +24,10 @@ export const RestaurantMenu = () => {
     } catch (error) {
       console.error("Error fetching data:", error);
     }
+  }
+
+  if (!restaurant) {
+    return <Shimmer></Shimmer>;
   }
 
   const {
