@@ -40,6 +40,12 @@ export const RestaurantMenu = () => {
     sla,
   } = restaurant?.cards?.[2]?.card?.card?.info || {};
 
+  const cards =
+    restaurant?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards || [];
+
+  let itemCards =
+    cards.find((c) => c?.card?.card?.itemCards)?.card?.card?.itemCards || [];
+
   return (
     <>
       <div className={styles.Container}>
@@ -51,6 +57,41 @@ export const RestaurantMenu = () => {
         <p>
           Rating: {avgRatingString} ({totalRatingsString})
         </p>
+        <h1>Menu</h1>
+        <div className={styles.MenuContainer}>
+          {itemCards.map((item) => {
+            const {
+              id,
+              name,
+              price,
+              defaultPrice,
+              ratings,
+              imageId,
+              description,
+            } = item.card.info;
+            return (
+              <div key={id} className={styles.MenuItems}>
+                <div className="left">
+                  <h2>{name}</h2>
+                  <h4>₹{price / 100 || defaultPrice / 100}</h4>
+                  <p>{(description && description.slice(0, 60)) || "Dummy"}</p>
+                  <h4 className="rating">
+                    {ratings?.aggregatedRating?.rating}
+
+                    <span>
+                      {ratings?.aggregatedRating?.rating || 3.8} (
+                      {ratings?.aggregatedRating?.ratingCountV2 || 6})
+                    </span>
+                  </h4>
+                </div>
+                <div className="right">
+                  <img src={IMG_CDN_URL + imageId} alt={name} />
+                  <button className="add-btn">ADD</button>
+                </div>
+              </div>
+            );
+          })}
+        </div>
         <span>|</span>
         <span className="time">{sla?.slaString}</span>
       </div>
