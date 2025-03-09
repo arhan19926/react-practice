@@ -6,7 +6,7 @@ import Cart from "../components/Cart/Cart";
 import Error from "../components/Error/Error";
 import Home from "../components/Home/Home";
 import { RestaurantMenu } from "../components/RestaurantMenu/RestaurantMenu";
-import Profile from "../components/Profile/Profile";
+// import Profile from "../components/Profile/Profile";
 import ProfileClass from "../components/Profile/ProfileClass";
 
 const AppRouter = createBrowserRouter([

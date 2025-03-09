@@ -1,11 +1,14 @@
 import { useEffect, useState } from "react";
+import { Restaurant } from "../components/RestaurantCards/RestaurantType";
 
 const useRestaurant = (resId: string) => {
   useEffect(() => {
     getRestaurantMenu();
   }, []);
 
-  const [restaurant, setRestaurant] = useState(null);
+  const [restaurant, setRestaurant] = useState<Restaurant | undefined>(
+    undefined
+  );
 
   async function getRestaurantMenu() {
     try {

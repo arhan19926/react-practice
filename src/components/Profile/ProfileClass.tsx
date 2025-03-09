@@ -1,6 +1,15 @@
 import React from "react";
-class ProfileClass extends React.Component {
-  constructor(props) {
+
+interface ProfileState {
+  data: {
+    name?: string;
+    avatar_url?: string;
+    location?: string;
+    login?: string;
+  };
+}
+class ProfileClass extends React.Component<{}, ProfileState> {
+  constructor(props: {}) {
     super(props);
 
     this.state = {
@@ -19,7 +28,8 @@ class ProfileClass extends React.Component {
       data: result,
     });
   }
-  componentDidUpdate(prevProps, prevState) {
+  componentDidUpdate() {
+    //componentDidUpdate(prevProps, prevState) {
     console.log(`Component Updated`);
   }
   render() {

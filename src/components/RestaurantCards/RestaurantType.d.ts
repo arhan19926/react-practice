@@ -66,6 +66,7 @@ interface Analytics {
 }
 
 export type Restaurant = {
+  cards: any;
   info: Info;
   analytics: Analytics;
   cta: CTA;

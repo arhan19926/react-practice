@@ -64,6 +64,7 @@ const Home = () => {
                     >
                       <RestaurantCard
                         key={restaurant.info.id}
+                        // @ts-ignore
                         restaurant={restaurant}
                       />
                     </Link>
