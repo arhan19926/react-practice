@@ -6,6 +6,7 @@ import RestaurantCard from "../RestaurantCards/RestaurantCard";
 import Shimmer from "../Shimmer/Shimmer";
 import "./Home.css";
 import { Link } from "react-router-dom";
+import useNetworkState from "../../hooks/useNetworkState";
 
 const Home = () => {
   const [isloading, setIsloading] = useState(true);
@@ -17,6 +18,13 @@ const Home = () => {
     }, 2000);
     console.log(`useeffect called`);
   }, []);
+  const online = useNetworkState();
+
+  if (!online) {
+    return (
+      <h1>🔴 You seem to be Offline , please check your internet connection</h1>
+    );
+  }
 
   const handleSearch = (query: string) => {
     setIsSearching(true);
