@@ -8,6 +8,10 @@ import Home from "../components/Home/Home";
 import { RestaurantMenu } from "../components/RestaurantMenu/RestaurantMenu";
 // import Profile from "../components/Profile/Profile";
 import ProfileClass from "../components/Profile/ProfileClass";
+import React, { Suspense } from "react";
+import Shimmer from "../components/Shimmer/Shimmer";
+// import Instamart from "../components/Instamart/Instamart";
+const Instamart = React.lazy(() => import("../components/Instamart/Instamart"));
 
 const AppRouter = createBrowserRouter([
   {
@@ -46,6 +50,14 @@ const AppRouter = createBrowserRouter([
       {
         path: `/restaurant/:id`,
         element: <RestaurantMenu />,
+      },
+      {
+        path: `/instamart`,
+        element: (
+          <Suspense fallback={<Shimmer />}>
+            <Instamart />
+          </Suspense>
+        ),
       },
     ],
   },
